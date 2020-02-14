@@ -8,13 +8,13 @@ function erase()
 
 function send()
 {
-Email.send({
-    Host: "http"
-    To : 'them@website.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
+    Email.send({
+        SecureToken : 'AIzaSyBiDIthp8humL_OdV_etcku6OSyzqHjXUM',
+        To : "davidepollicino2015@gmail.com",
+        From : "davidepollicino2015@gmail.com",
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
 }
