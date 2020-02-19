@@ -23,7 +23,7 @@ function filter_card(class_name)
    {
        if(story_categories[i] == class_name)
        {
-           continue; 
+           show_card(story_categories[i]);_ 
        }
        else
        {
@@ -32,6 +32,7 @@ function filter_card(class_name)
    }
 }
 
+
 function reload_page()
 {
     location.reload(false);
@@ -39,10 +40,22 @@ function reload_page()
 
 function hide_card(hide_id)
 {
-    var app4 = new Vue({
+    var card_element = new Vue({
         el: hide_id,
         data: {
             seen: false
         }
     })
 }
+
+/*
+function show_card(hide_id)
+{
+    var card_element = new Vue({
+        el: hide_id,
+        data: {
+            seen: true
+        }
+    })
+}
+*/
