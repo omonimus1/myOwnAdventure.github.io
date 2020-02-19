@@ -1,2 +1,2 @@
 # myOwnAdventure.github.io
-My Own adventure inspired website 
+[Link to the website](https://omonimus1.github.io/myOwnAdventure.github.io/)
