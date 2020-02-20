@@ -1,21 +1,52 @@
-Short, and well written
-PDF report, that is limited to no more than 8 pages of text (images do not
-contribute towards the page limit) and which includes the following:
 
 1. A description of the game that you are planning with enough background
 context for your reader to understand what you are trying to do. If you have a
 draft of your story or storyline then you should include it here.
 
+My Website, myOwnAdventure, will allow to any users to have access to multiple stories, 
+splitted also in according wiht their category (Fantasy - Childhood - Horror).
+
+For the coursework dimostration, I will complete just one story, for the purpose to show to the lecture how 
+actually the website works. 
+
+The story that I will use, it's a Childhood sotry extremely famous in Italy, called "Pollicino", 
+quite difficult to forget considering my Surname. 
+
+Of course,the story is based on the original one, but the user will have the opportunity to completely change 
+the destiny of Pollicino and the end of many adventures, that could be potentially be releated between them. 
+
+Defintely, the only point of each story that will always be equals to the original one, is going to be the start, 
+to allow to the users to understan the scenario and context of the story, decide if keep reading it or change of something else. 
 
 
 
 2. A summary of any background research you have done with a description of how
 this has contributed to your project (perhaps through better understanding of
 potential solutions, libraries, or APIs that might assist you).
+
+Of course, before start myOwnAdventure, I had to understand first of all what it is and how it could look a potential website. 
+For this reason, seaching online I have found to extremelly useful websites that allows me to understand the potential structure of my final coursework
+and how myOwnAdventure works. 
+
 * http://chooseyourstory.com/
 * https://infinite-story.com/
+
+
+Many users, could find a website with bright colours harmful for their eyes. Personally, I prefer use a Dark Mode. 
+For this reason, I was thinking about a GUI element that could allows to the users to swap the color of a page. 
+For this reason, it was extremelly useful understand how a JS Slider works. 
+
 * JS Slider : https://www.w3schools.com/howto/howto_js_rangeslider.asp
+
+An other functionality of the website was indicate a level of popularity of the story. 
+
 * https://codepen.io/jamesbarnett/pen/vlpkh
+
+Working with Materialize, I had a problem with the footer, that was contantly having a white space between
+the main and the botton of the page. 
+Searching online, I found out that Materialize needs to have a HTML5 page format, using header, main and footer tags inside the body. 
+Using these tags I have fixed this problem. 
+
 * Fix materialize footer: https://stackoverflow.com/questions/29703544/materialize-css-sticky-footer
 	MATERIALIZE requires the following structure:	
 		<body>
@@ -23,6 +54,7 @@ potential solutions, libraries, or APIs that might assist you).
 			<main></main>
 			<footer></footer>
 		</body>
+
 
 3. A list of features and some discussion of why each feature is included.
  
