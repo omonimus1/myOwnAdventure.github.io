@@ -1,6 +1,8 @@
-.story_category {
+.story_category , a  {
     font-weight:bold;
 }
+
+
 
 .checked {
   color: orange;

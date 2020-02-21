@@ -2,7 +2,12 @@
     padding-right: 1.2rem;
 }
 
-.li {
+label {
+    color: white;
+    font-size: 1.1rem;
+}
+
+li {
     color: black;
 }
 
@@ -15,3 +20,5 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+
