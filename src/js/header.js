@@ -13,10 +13,10 @@ $("#togBtn").on('change', function() {
 
 function set_black_theme()
 {
-    alert("is set");
+    document.body.style.backgroundColor = "black";
 }
 
 function  unset_blacktheme()
 {
-    alert("unset")
+    document.body.style.background = "white";
 }
