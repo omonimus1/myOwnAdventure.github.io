@@ -48,7 +48,7 @@ function hide_card(hide_id)
     })
 }
 
-/*
+
 function show_card(hide_id)
 {
     var card_element = new Vue({
@@ -58,4 +58,3 @@ function show_card(hide_id)
         }
     })
 }
-*/

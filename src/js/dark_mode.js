@@ -15,11 +15,28 @@ function set_black_theme()
 {
     document.body.style.backgroundColor = "grey";
     document.body.style.color = "white";
-   // document.nodeValue.style.background ="black";
+    colorLinks("black");
 }
+
+
 
 function  unset_blacktheme()
 {
     document.body.style.background = "white";
     document.body.style.color = "black";
+    colorLinks("blue");
+}
+
+
+
+function colorLinks(color_name)
+{
+    var links = document.getElementsByClassName("story_link");
+    for(var i=0;i<links.length;i++)
+    {
+        if(links[i].href)
+        {
+            links[i].style.color = color_name;  
+        }
+    }  
 }

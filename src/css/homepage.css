@@ -8,6 +8,13 @@
   color: orange;
 }
 
+a {
+  color: black;
+}
+
+a.checked {
+  color: purple;
+}
 
 
 
