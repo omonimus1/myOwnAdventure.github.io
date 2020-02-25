@@ -47,6 +47,10 @@ the main and the botton of the page.
 Searching online, I found out that Materialize needs to have a HTML5 page format, using header, main and footer tags inside the body. 
 Using these tags I have fixed this problem. 
 
+Configuration of the email_sender php script 
+
+https://stackoverflow.com/questions/38299776/usr-sbin-sendmail-not-found/38299803
+
 * Fix materialize footer: https://stackoverflow.com/questions/29703544/materialize-css-sticky-footer
 	MATERIALIZE requires the following structure:	
 		<body>
