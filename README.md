@@ -1,6 +1,14 @@
 # myOwnAdventure.github.io
 
-[Link to the website](https://omonimus1.github.io/myOwnAdventure.github.io/)Davide Pollicino - 
+* [Link to the Website of the Coursework](https://omonimus1.github.io/myOwnAdventure.github.io/)
+
+## Author
+
+* Davide Pollicino - 40401270 
+* ```40401270 at live dot napier dot ac dot uk```
+* ```davidepollicino2015 at gmail dot com```
+* [Personal Website](http://davidepollicino.com)
+
 
 ## Description of the Coursework
 
@@ -83,6 +91,4 @@ to contain, to help me as well to find different files more easily.
 
 ![contactMe.html](images/contactMe.png)
 
-'''40401270 at live dot napier dot ac dot uk'''
-'''davidepollicino2015 at gmail dot com'''
-[Personal Website](http://davidepollicino.com)
+
