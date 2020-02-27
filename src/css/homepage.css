@@ -8,12 +8,21 @@
   color: orange;
 }
 
-a {
-  color: black;
+.card-title{
+  color : green;
 }
 
-a.checked {
-  color: purple;
+p{
+  color: white;
+  font-weight: bold;
+}
+
+.footer_icon{
+  color: blue;
+}
+
+a.hover {
+  color: red;
 }
 
 
