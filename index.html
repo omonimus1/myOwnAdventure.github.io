@@ -29,23 +29,24 @@
                     <li><a href="#footer_id">About Me</a></li>
                     <li><a href="https://github.com/omonimus1/WebTechSET08101/tree/master/Coursework2019_2020/coursework1" target="_blank">Source</a></li>
                     <li> <a href="src/html/contactMe.html">Contact Me</a> </li>
+                    <li>
+                        <!-- Switch -->
+                        <div class="switch">
+                            <label>
+                                Normal
+                                    <input type="checkbox" id="togBtn" value="false"  >                               
+                                    <span class="lever"></span>
+                                Dark
+                            </label>
+                        </div>
+                    </li>
                 </ul>
 
                  <ul id="nav-mobile" class="sidenav">
                     <li><a href="#footer_id">About Me</a></li>
                     <li><a href="https://github.com/omonimus1/WebTechSET08101/tree/master/Coursework2019_2020/coursework1" target="_blank">Source</a></li>
                     <li> <a href="src/html/contactMe.html">Contact Me</a></li>
-                    <li>
-                        <!-- Switch -->
-                        <div class="switch">
-                            <label>
-                                N
-                                    <input type="checkbox" id="togBtn" value="false" >                               
-                                    <span class="lever"></span>
-                                D
-                            </label>
-                        </div>
-                    </li>
+
                 </ul>
                 <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             </div>
@@ -254,6 +255,9 @@
   <script src="src/js/materialize.js"></script>
   <script src="src/js/init.js"></script>
   <script src="src/js/dark_mode.js"></script>
+
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-cookies@1.7.0/vue-cookies.js"></script>
 
   </body>
 </html>
