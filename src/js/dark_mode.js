@@ -23,7 +23,7 @@ $("#togBtn").on('change', function() {
 function set_black_theme()
 {    
     document.body.style.backgroundColor = "grey";
-    document.body.style.color = "white";
+    document.body.style.color = "black";
     colorLinks("black");
     Console.log(getCookie(switchIsSelected));
 }
