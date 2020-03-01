@@ -58,3 +58,4 @@ function show_card(hide_id)
         }
     })
 }
+

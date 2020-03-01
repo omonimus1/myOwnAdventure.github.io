@@ -7,13 +7,11 @@ $("#togBtn").on('change', function() {
     if ($(this).is(':checked')) {
         switchStatus = $(this).is(':checked');
         set_black_theme();// To verify
-        //this.$cookies.set("themeCookie",switchStatus,0);
-        //alert(this.$cookies.get("themeCookie");        
+                
     }
     else {
         unset_blacktheme();// To verify
-        //this.$cookies.set("themeCookie",switchStatus,0);  
-       // alert(this.$cookies.get("themeCookie");      
+   
     }
 });
 
