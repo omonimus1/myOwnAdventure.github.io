@@ -6,6 +6,17 @@ p {
     text-align: left;
 }
 
+.valutation
+{
+    visibility: hidden;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.validatioParagrah
+{
+    font-weight: bold;
+}
 
 ul , li {
     padding-top: 0.5rem;
