@@ -17,11 +17,10 @@ $("#togBtn").on('change', function() {
 
 
 
-
 function set_black_theme()
 {    
     document.body.style.backgroundColor = "grey";
-    document.body.style.color = "black";
+    document.body.style.color = "white";
     colorLinks("black");
     Console.log(getCookie(switchIsSelected));
 }

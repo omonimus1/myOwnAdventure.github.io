@@ -49,24 +49,48 @@
     </header>
 
     <main>
-        <article>
-            <h1>Pollicino intro</h1>
-            <p>
-                There was once a poor countryman who used to sit in the chimney-corner all evening
-                and poke the fire, while his wife sat at her spinning-wheel. And he used to say,
-                "How dull it is without any children about us; our house is so quiet, and other people's
-                houses so noisy and merry!" - "Yes," answered his wife, and sighed, "if we could only have one,
-                and that one ever so little, no bigger than my thumb, how happy I should be! It would, indeed,
-                be having our heart's desire."
-            </p>
-        </article>
+        <div class="row">      
+            <article>
+                <h1>Pollicino intro</h1>
+                <p>
+                    There was once a poor countryman who used to sit in the chimney-corner all evening
+                    and poke the fire, while his wife sat at her spinning-wheel. And he used to say,
+                    "How dull it is without any children about us; our house is so quiet, and other people's
+                    houses so noisy and merry!" - "Yes," answered his wife, and sighed, "if we could only have one,
+                    and that one ever so little, no bigger than my thumb, how happy I should be! It would, indeed,
+                    be having our heart's desire."
+                </p>
+            </article>
+         </div>
 
-        <ul>
-            <li><a href="theyGotChild.html" class="story_link">Pollicino is born </a></li>
-            <li> <a href="pollicinoWasNeverBorn.html" class="story_link">Pollicino will never born</a></li>
-            <li> <a href="https://www.grimmstories.com/language.php?grimm=037&l=en&r=it" class="story_link" target="_blank">Resouce</a></li>
-            <li><a href="video.html" class="story_link">See video</a></li>
-        </ul>
+        <div class="row">
+            <div class="col s6">
+                <ul>
+                    <li><a href="theyGotChild.html" class="story_link">Pollicino is born </a></li>
+                    <li> <a href="pollicinoWasNeverBorn.html" class="story_link">Pollicino will never born</a></li>
+                    <li> <a href="https://www.grimmstories.com/language.php?grimm=037&l=en&r=it" class="story_link" target="_blank">Resouce</a></li>
+                    <li><a href="video.html" class="story_link">See video</a></li>
+                </ul>  
+            </div>
+            <div class="col s6">
+                <p>Get a personal indicators about the story flow in according with your choises</p>
+                <button class="btn waves-effect waves-light" type="submit" onclick="getPageTitle();" name="action">Get personal Performance
+                    <i class="material-icons right">send</i>
+                  </button>
+    
+    
+                <div class="valutation" id="valutation">
+                    <p class="range-field"   id="validatioParagrah">Flow of the story:</p>
+                        <input type="range"   id="storyFlowValidation"  min="0"  step ="2"  max="100" />
+                        '
+                    <p class="range-field"  id="validatioParagrah">Creativity: </p>
+                        <input type="range"   id="creativityValidation"  min="0"  step ="2"  max="100" />
+    
+                    <p class="range-field"   id="validatioParagrah" >Boringness:</p>
+                        <input type="range"   id="boringnessValidation"  min="0"  step ="2"  max="100" />
+                </div>
+            </div>
+        </div>
 
     </main>
 
@@ -94,6 +118,7 @@
     <script src="../../js/materialize.js"></script>
     <script src="../../js/init.js"></script>
     <script src="../../js/dark_mode.js"></script>
+    <script src="../../js/story_page.js"></script>
     <script src="src/js/header.js"></script>
 </body>
 </html>

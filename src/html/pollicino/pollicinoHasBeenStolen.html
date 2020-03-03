@@ -44,32 +44,56 @@
                     <li> <a href="../contactMe.html">Contact Me</a></li>
                 </ul>
                 <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            </div>pulse
+            </div>
         </nav>
     </header>
 
     <main>
-        <article>
-            <h2>Pollicino Has been stolen</h2>
-            <p>
-                ... Once the strangers saw Pollicino they decided to stole him. 
-                While the phater was cutting the wood, the two men stole Pollicino and run away for miles and miles. 
-                The two thieves started to think about what do to with this small boy. 
+        <div class="row">
+            <article>
+                <h2>Pollicino Has been stolen</h2>
+                <p>
+                    ... Once the strangers saw Pollicino they decided to stole him. 
+                    While the phater was cutting the wood, the two men stole Pollicino and run away for miles and miles. 
+                    The two thieves started to think about what do to with this small boy. 
 
-                Arrived in a Palermoland, the two thieves saw the Forfei Circle, one of the oldest circle of the continent. 
-                The two thieves, bring Pollicino to the circle and after a quick chat with the owner if rhe Circle, Pollino has been solved for 5 gold coins.
-                The strangers stopped to talk with Pollicino's father
-                <strong>During the first day at the circle, Pollicino...</strong>
-                
-            </p>
-        </article>
-        <ul>
-            <li> <a href="pollicinoIntro.html" class="story_link">Return to the start</a> </li>
-            <li> <a href="backhome.html" class="story_link">Escaped from the circle and went back home</a></li>
-            <li> <a href="https://www.grimmstories.com/language.php?grimm=037&l=en&r=it" class="story_link" target="_blank">Resouce</a></li>
-            <li><a href="video.html" class="story_link">See video of original video  </a></li>
-        </ul>
-
+                    Arrived in a Palermoland, the two thieves saw the Forfei Circle, one of the oldest circle of the continent. 
+                    The two thieves, bring Pollicino to the circle and after a quick chat with the owner if rhe Circle, Pollino has been solved for 5 gold coins.
+                    The strangers stopped to talk with Pollicino's father
+                    <strong>During the first day at the circle, Pollicino...</strong>
+                    
+                </p>
+            </article>
+    </div>
+        <div class="row">
+            <div class="col s6">           
+                <ul>
+                    <li> <a href="pollicinoIntro.html" class="story_link">Return to the start</a> </li>
+                    <li> <a href="backhome.html" class="story_link">Escaped from the circle and went back home</a></li>
+                    <li> <a href="https://www.grimmstories.com/language.php?grimm=037&l=en&r=it" class="story_link" target="_blank">Resouce</a></li>
+                    <li><a href="video.html" class="story_link">See video of original video  </a></li>
+                </ul>
+            
+            </div>
+            <div class="col s6">
+                <p>Get a personal indicators about the story flow in according with your choises</p>
+                <button class="btn waves-effect waves-light" type="submit" onclick="getPageTitle();" name="action">Get personal Performance
+                    <i class="material-icons right">send</i>
+                  </button>
+    
+    
+                <div class="valutation" id="valutation">
+                    <p class="range-field"   id="validatioParagrah">Flow of the story:</p>
+                        <input type="range"   id="storyFlowValidation"  min="0"  step ="2"  max="100" />
+                        '
+                    <p class="range-field"  id="validatioParagrah">Creativity: </p>
+                        <input type="range"   id="creativityValidation"  min="0"  step ="2"  max="100" />
+    
+                    <p class="range-field"   id="validatioParagrah" >Boringness:</p>
+                        <input type="range"   id="boringnessValidation"  min="0"  step ="2"  max="100" />
+                </div>
+            </div>
+        </div>
     </main>
 
     <!--FOOTER-->
@@ -98,6 +122,7 @@
     <script src="../../js/materialize.js"></script>
     <script src="../../js/init.js"></script>
     <script src="../../js/dark_mode.js"></script>
+    <script src="../../js/story_page.js"></script>
     <script src="src/js/header.js"></script>
 
 </body>

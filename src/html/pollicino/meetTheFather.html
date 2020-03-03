@@ -49,25 +49,50 @@
     </header>
 
     <main>
-        <article>
-            <h2>Pollicino reaches the father</h2>
-            <p>
-                So the horse went on quite as if his master were driving him, and drew the waggon along the right road to the wood. 
-                Now it happened just as they turned a corner, and the little fellow was calling out "Gee-up!" that two strange men passed by. 
-                "Look," said one of them, "how is this? There goes a waggon, and the driver is calling to the horse, and yet he is nowhere to be seen." 
-                - "It is very strange," said the other; "we will follow the waggon, and see where it belongs." And the wagon went right through the wood, 
-                up to the place where the wood had been hewed. When Tom Thumb caught sight of his father, he cried out, "Look, father, here am I with the wagon; 
-                now, take me down." The father held the horse with his left hand, and with the right he lifted down his little son out of the horse's ear, 
-                and Tom Thumb sat down on a stump, quite happy and content. <strong>When the two strangers saw Pollicino...</strong>
-            </p>
-        </article>
-        <ul>
-            <li> <a href="pollicinoIntro.html" class="story_link">Return to the start</a> </li>
-            <li> <a href="pollicinoHasBeenStolen.html" class="story_link">The strangers stole Pollicino</a></li>
-            <li> <a href="meetPolliconsFather.html" class="story_link">The strangers meet Pollino's father</a></li>
-            <li> <a href="https://www.grimmstories.com/language.php?grimm=037&l=en&r=it" class="story_link" target="_blank">Resouce</a></li>
-            <li><a href="video.html" class="story_link">See video of original video  </a></li>
-        </ul>
+        <div class="row">
+            <article>
+                <h2>Pollicino reaches the father</h2>
+                <p>
+                    So the horse went on quite as if his master were driving him, and drew the waggon along the right road to the wood. 
+                    Now it happened just as they turned a corner, and the little fellow was calling out "Gee-up!" that two strange men passed by. 
+                    "Look," said one of them, "how is this? There goes a waggon, and the driver is calling to the horse, and yet he is nowhere to be seen." 
+                    - "It is very strange," said the other; "we will follow the waggon, and see where it belongs." And the wagon went right through the wood, 
+                    up to the place where the wood had been hewed. When Tom Thumb caught sight of his father, he cried out, "Look, father, here am I with the wagon; 
+                    now, take me down." The father held the horse with his left hand, and with the right he lifted down his little son out of the horse's ear, 
+                    and Tom Thumb sat down on a stump, quite happy and content. <strong>When the two strangers saw Pollicino...</strong>
+                </p>
+            </article>
+        </div>
+
+        <div class="row">
+            <div class="col s6">
+                <ul>
+                    <li> <a href="pollicinoIntro.html" class="story_link">Return to the start</a> </li>
+                    <li> <a href="pollicinoHasBeenStolen.html" class="story_link">The strangers stole Pollicino</a></li>
+                    <li> <a href="meetPolliconsFather.html" class="story_link">The strangers meet Pollino's father</a></li>
+                    <li> <a href="https://www.grimmstories.com/language.php?grimm=037&l=en&r=it" class="story_link" target="_blank">Resouce</a></li>
+                    <li><a href="video.html" class="story_link">See video of original video  </a></li>
+                </ul>  
+            </div>
+            <div class="col s6">
+                <p>Get a personal indicators about the story flow in according with your choises</p>
+                <button class="btn waves-effect waves-light" type="submit" onclick="getPageTitle();" name="action">Get personal Performance
+                    <i class="material-icons right">send</i>
+                  </button>
+    
+    
+                <div class="valutation" id="valutation">
+                    <p class="range-field"   id="validatioParagrah">Flow of the story:</p>
+                        <input type="range"   id="storyFlowValidation"  min="0"  step ="2"  max="100" />
+                        '
+                    <p class="range-field"  id="validatioParagrah">Creativity: </p>
+                        <input type="range"   id="creativityValidation"  min="0"  step ="2"  max="100" />
+    
+                    <p class="range-field"   id="validatioParagrah" >Boringness:</p>
+                        <input type="range"   id="boringnessValidation"  min="0"  step ="2"  max="100" />
+                </div>
+            </div>
+        </div>
 
     </main>
 
@@ -98,6 +123,7 @@
     <script src="../../js/init.js"></script>
     <script src="../../js/dark_mode.js"></script>
     <script src="src/js/header.js"></script>
+    <script src="../../js/story_page.js"></script>
 
 </body>
 </html>
