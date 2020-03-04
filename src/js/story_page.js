@@ -1,7 +1,6 @@
 function getPageTitle()
 {
     var title = document.title;
-    alert(title);
     set_parameters(title);
 
 }
@@ -36,6 +35,18 @@ function set_parameters(title)
         end_flow_story = 100;
         creativity = 0;
         boringess = 100; 
+    }
+    else if(title == "Pollicino Intro")
+    {
+        end_flow_story = 5;
+        creativity = 5;
+        boringess = 0; 
+    }
+    else if(title = "Pollicino is growing Up")
+    {
+        end_flow_story = 10;
+        creativity = 20;
+        boringess = 0; 
     }
     set_value_performance(end_flow_story , creativity ,boringess);
 }
