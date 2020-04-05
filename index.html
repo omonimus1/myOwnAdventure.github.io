@@ -54,176 +54,28 @@
 
 
     <main>
-        <div class="container">
-            <div class="section">
-                <div class="row">
-                    <div class="input-field col s12">
-                        <select class="browser-default" id="id_of_select" name="parameters" onchange="get_category(this.value)">
-                            <option value="" disabled selected>Filter Story by category</option>
-                            <option value="1">Horror</option>
-                            <option value="2">Fantasy</option>
-                            <option value="3">Childhood</option>
-                            <option value="4">All</option>
-                        </select>
+        <div class="Fantasy" v-if="seen">
+            <div class="col s12 m6">
+                <div class="card deep-purple accent-3">
+                    <div class="card-content white-text">
+                            <span class="card-title">Pollicino</span>
+                            <p> Story about a poor family with a special child</p>                            
+                    </div>
+                    <div class="card-action">
+                        <a href="src/html/pollicino/pollicinoIntro.html">Continue to read</a>
+                        <p class="story_category">Fantasy</p>
+                        <div id="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div> <!--End div select-->
-           
-        <!--Story cards section -->  
-        <div class="Fantasy">
-            <div class="row">
-                <div class="Fantasy" v-if="seen">
-                    <div class="col s12 m6">
-                        <div class="card deep-purple accent-3">
-                            <div class="card-content white-text">
-                                <span class="card-title">Coming soon...</span>
-                                <p>
-                                    Story development in progress
-                                </p>
-                            </div>
-                            <div class="card-action">
-                                <a href="#">Continue to read</a>
-                                <p class="story_category">Fantasy</p>
-                                <div id="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--End card-->
-
-                <div class="Fantasy" v-if="seen">
-                    <div class="col s12 m6">
-                        <div class="card deep-purple accent-3">
-                            <div class="card-content white-text">
-                                    <span class="card-title">Pollicino</span>
-                                    <p> Story about a poor family with a special child</p>                            
-                            </div>
-                            <div class="card-action">
-                                <a href="src/html/pollicino/pollicinoIntro.html">Continue to read</a>
-                                <p class="story_category">Fantasy</p>
-                                <div id="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--End card-->
-                </div><!--End of -->
-            </div>
-        </div>
-
-        <div class="Childhood">
-            <div class="row">
-                <div class="Childhood" v-if="seen">
-                    <div class="col s12 m6">
-                        <div class="card blue">
-                            <div class="card-content white-text">
-                                <span class="card-title">Coming soon...</span>
-                                <p>
-                                    Story Develpment in progress
-                                </p>
-                            </div>
-                            <div class="card-action">
-                                <a href="#">Continue to read</a>
-                                <p class="story_category">Childhood</p>
-                                <div id="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--End card-->
-                <div class="Childhood" v-if="seen">
-                    <div class="col s12 m6">
-                        <div class="card blue">
-                            <div class="card-content white-text">
-                                <span class="card-title">Coming soon...</span>
-                                <p>
-                                    Story Develpment in progress
-                                </p>
-                            </div>
-                            <div class="card-action">
-                                <a href="#">Continue to read</a>
-                                <p class="story_category">Childhood</p>
-                                <div id="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--End card-->
-            </div>
-        </div>
-
-        <div class="Horror">
-            <div class="row">
-                <div class="Horror" v-if="seen">
-                    <div class="col s12 m6">
-                        <div class="card red">
-                            <div class="card-content white-text">
-                                <span class="card-title">Coming soon...</span>
-                                <p>
-                                    Story Develpment in progress
-                                </p>
-                            </div>
-                            <div class="card-action">
-                                <a href="#">Continue to read</a>
-                                <p class="story_category">Horror</p>
-                                <div id="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--End card-->
-                    <div class="Horror" v-if="seen">
-                        <div class="col s12 m6">
-                            <div class="card red">
-                                <div class="card-content white-text">
-                                    <span class="card-title">Coming soon..</span>
-                                    <p>
-                                        Story Develpment in progress
-                                    </p>                                    </p>
-                                </div>
-                                <div class="card-action">
-                                    <a href="#">Continue to read</a>
-                                    <p class="story_category">Horror</p>
-                                    <div id="rating">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--End card-->
-                </div>
-            </div>
-        </div>
-         
-</main>
+            </div><!--End card-->
+        </div><!--End of -->
+    </main>
   
 
 <footer class="page-footer black" id="footer_id">
@@ -249,7 +101,6 @@
 
   <!-- Include vue.js Framework -->
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-  <script src="src/js/select_story.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="src/js/materialize.js"></script>
   <script src="src/js/init.js"></script>

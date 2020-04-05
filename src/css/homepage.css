@@ -2,6 +2,12 @@
     font-weight:bold;
 }
 
+main{
+  margin-top: 3rem;
+  padding-right: 3rem !important;
+  padding-left: 3rem !important; 
+}
+
 
 
 .checked {
