@@ -41,7 +41,7 @@
 
     <main>
         <div class="row">
-            <form class="col s12">
+            <form action="../php/email_sender.php" method="post"  class="col s12">
                 <div class="row">
                     <div class="input-field col s4">
                         <i class="material-icons prefix">account_circle</i>
@@ -59,15 +59,8 @@
                 <div class="row">
                     <div class="input-field col s4">
                         <i class="material-icons prefix">message</i>
-                        <textarea id="object" class="materialize-textarea"></textarea>
-                        <label for="object">Object</label>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s4">
-                            <i class="material-icons prefix">mode_edit</i>
-                            <textarea id="message" class="materialize-textarea"></textarea>
-                            <label for="message">Message</label>
-                        </div>
+                        <textarea id="message" class="materialize-textarea"></textarea>
+                        <label for="message">Object</label>
                     </div>
                 </div>
 

@@ -6,10 +6,9 @@ function getPageTitle() {
 
 /* Set values of the Flow_story, creativity and boringness */
 function set_parameters(title) {
-    if (title == "Back home") {
-        // Parameters: flow_story, creativity, boringness
+    if (title == "Back home")
         set_value_performance(100, 64, 10);
-    } else if (title == "Stranger met Pollicino Father")
+    else if (title == "Stranger met Pollicino Father")
         set_value_performance(60, 86, 4);
     else if (title == "Pollicino has been stolen")
         set_value_performance(58, 100, 2);
